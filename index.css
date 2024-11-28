@@ -68,6 +68,13 @@ h1 {
     font-family: ggg;
 }
 
+.nazad {
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    font-family: ggg;
+}
+
 .bigfont {
     color: white;
     font-size: 150px;
@@ -78,3 +85,25 @@ h1 {
     width: auto;
     font-family: ggg;
 }
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 3;
+}
+
+.close{
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+    float: right;
+    cursor: pointer;
+}
+
