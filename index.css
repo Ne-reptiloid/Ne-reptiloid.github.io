@@ -37,6 +37,27 @@ h1 {
     flex-direction: row;
 }
 
+.menu-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+/* styles.css */
+
+.container {
+    height: 100vh;
+    width: 130%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+/* Стиль для содержимого внутри контейнера */
+.container p {
+    margin-bottom: 10px;
+}
+
 .green1 {
     z-index: -1;
     position: absolute;
@@ -46,12 +67,63 @@ h1 {
     height: 100vh;
 }
 
+
+.green2 {
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 50vw;
+    height: 90vh;
+}
+
+.glaz {
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 4vw;
+    height: 6vh;
+}
+
+.green3 {
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 400vh;
+}
+
  .main-right {
     height: 100vh;
     width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .menu-right {
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
 
  .main-left {
+    width: 30%;
+    background-image: linear-gradient(#375101, #9AC53E);
+ }
+
+ .menu-left {
+    width: 30%;
+    background-image: linear-gradient(#375101, #9AC53E);
+ }
+
+ .main-header {
+    width: 30%;
+    background-image: linear-gradient(#375101, #9AC53E);
+ }
+
+ .menu-header {
     width: 30%;
     background-image: linear-gradient(#375101, #9AC53E);
  }
@@ -72,6 +144,30 @@ h1 {
     font-family: ggg;
 }
 
+.littlefont2 {
+    color: black;
+    font-size: 50px;
+    background-color: white; 
+    opacity: 80%;
+    width: 100%;
+    font-family: ggg;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.littlefont3 {
+    color: black;
+    font-size: 30px;
+    background-color: white; 
+    opacity: 80%;
+    width: 100%;
+    font-family: ggg;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
 .nazad {
     color: white;
     font-size: 40px;
@@ -81,12 +177,26 @@ h1 {
 
 .bigfont {
     color: white;
-    font-size: 150px;
-    top: 200px;
-    right: 300px;
-    position: absolute;
-    height: 100px;
-    width: auto;
+    font-size: 100px;
+    font-family: ggg;
+}
+
+.bigfont2 {
+    color: black;
+    font-size: 100px;
+    font-family: ggg;
+}
+
+.bigfont3 {
+    color: white;
+    font-size: 100px;
+    font-family: ggg;
+    text-align: center;
+}
+
+.mediumfont {
+    color: white;
+    font-size: 50px;
     font-family: ggg;
 }
 
