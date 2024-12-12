@@ -15,7 +15,7 @@ h1 {
     position: fixed;
     min-width: fit-content;
 }
-.green1 {
+.menu--container__background {
     transform: rotate(0deg);
     width: 100vw;
     position: fixed;
@@ -29,15 +29,12 @@ h1 {
 }
 
  */
-
-.main-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+html {
+    scroll-behavior: smooth;
 }
 
-.menu-container {
+
+.menu--container {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -48,9 +45,9 @@ h1 {
 
 .container {
     height: 100vh;
-    width: 130%;
     overflow-y: auto;
     scroll-behavior: smooth;
+
 }
 
 /* Стиль для содержимого внутри контейнера */
@@ -58,7 +55,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-.green1 {
+.menu--container__background {
     z-index: -1;
     position: absolute;
     left: 0;
@@ -68,7 +65,7 @@ h1 {
 }
 
 
-.green2 {
+.menu--right__image {
     z-index: -1;
     left: 0;
     top: 0;
@@ -76,12 +73,12 @@ h1 {
     height: 90vh;
 }
 
-.glaz {
+.menu--header__image {
     z-index: -1;
     left: 0;
     top: 0;
-    width: 4vw;
-    height: 6vh;
+    width: 8vh;
+    height: 8vh;
 }
 
 .green3 {
@@ -92,7 +89,8 @@ h1 {
     height: 400vh;
 }
 
- .main-right {
+
+ .menu--right {
     height: 100vh;
     width: 70%;
     display: flex;
@@ -100,43 +98,20 @@ h1 {
     align-items: center;
  }
 
- .menu-right {
-    height: 100vh;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
 
- .main-left {
+ .menu--header {
     width: 30%;
     background-image: linear-gradient(#375101, #9AC53E);
  }
 
- .menu-left {
-    width: 30%;
-    background-image: linear-gradient(#375101, #9AC53E);
- }
-
- .main-header {
-    width: 30%;
-    background-image: linear-gradient(#375101, #9AC53E);
- }
-
- .menu-header {
-    width: 30%;
-    background-image: linear-gradient(#375101, #9AC53E);
- }
-
- .littlefont-container {
-    margin-top: 10vh;
-    height: 80vh;
+ .menu--header__buttons {
+    margin-top: 15vh;
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
 }
 
-.littlefont {
+.menu--header__button {
     color: white;
     font-size: 65px;
     background-color: darkgreen; 
@@ -144,7 +119,7 @@ h1 {
     font-family: ggg;
 }
 
-.littlefont2 {
+.menu--header__button2 {
     color: black;
     font-size: 50px;
     background-color: white; 
@@ -156,7 +131,7 @@ h1 {
     padding: 20px;
 }
 
-.littlefont3 {
+.menu--header__button3 {
     color: black;
     font-size: 30px;
     background-color: white; 
@@ -168,33 +143,35 @@ h1 {
     padding: 20px;
 }
 
-.nazad {
+.menu--header__icon {
+    position: absolute;
+    transform: translate(0, -120%);
     color: white;
     font-size: 40px;
     width: 100%;
     font-family: ggg;
 }
 
-.bigfont {
+.menu--right__title {
     color: white;
     font-size: 100px;
     font-family: ggg;
 }
 
-.bigfont2 {
+.menu--right__title2 {
     color: black;
     font-size: 100px;
     font-family: ggg;
 }
 
-.bigfont3 {
+.menu--right__title3 {
     color: white;
     font-size: 100px;
     font-family: ggg;
     text-align: center;
 }
 
-.mediumfont {
+.menu--right__font {
     color: white;
     font-size: 50px;
     font-family: ggg;
